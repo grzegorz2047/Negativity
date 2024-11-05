@@ -34,7 +34,7 @@ jobs:
       # continue even if there is an issue to save all cache
       continue-on-error: true
     - name: Archive production artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4.4.3
       with:
         name: openguild-data
         path: |
